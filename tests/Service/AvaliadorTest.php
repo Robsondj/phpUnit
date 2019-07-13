@@ -16,6 +16,10 @@ class AvaliadorTest extends TestCase
 	
 	private $leiloeiro;
 
+	// setUpBeforeClass executa antes de tudo
+	// tearDown executa depois de cada teste
+	// tearDownAfterClass executa depois de tudo
+
 	// Executa antes de cada teste
 	protected function setUp(): void
 	{
